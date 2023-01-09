@@ -1,6 +1,6 @@
 class Product < ApplicationRecord
   with_options presence: true do
     validates :name
-    validates :count
+    validates :type_id
   end
 end
